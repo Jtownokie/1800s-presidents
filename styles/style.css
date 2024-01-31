@@ -1,7 +1,38 @@
-p {
-  color: red;
+:root {
+  --brass: #b5a642;
+}
+
+html {
+  font-family: 'Oswald', sans-serif;
+  font-size: 10px;
+  color: var(--brass);
+}
+
+body {
+  width: auto;
+  margin: 0;
+  background: radial-gradient(#6F2505, black);
+  /* background-color: #6F2505; */
+  padding: 0 20px 20px 20px;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  font-size: 60px;
+  text-align: center;
+  text-shadow: 5px 3px 5px black;
 }
 
 h2 {
-  color: red;
+  font-size: 30px;
+  text-align: left;
 }
+
+p {
+  font-size: 15px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+
