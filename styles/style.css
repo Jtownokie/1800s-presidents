@@ -12,7 +12,6 @@ body {
   width: auto;
   margin: 0;
   background: radial-gradient(#6F2505, black);
-  /* background-color: #6F2505; */
   padding: 0 20px 20px 20px;
 }
 
@@ -33,6 +32,12 @@ p {
   font-size: 15px;
   line-height: 2;
   letter-spacing: 1px;
+}
+
+img {
+  border: 20px solid black;
+  border-image: url(../images/brown-frame-edge.png) 30 stretch;
+  
 }
 
 
